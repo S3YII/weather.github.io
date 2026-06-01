@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="weather-card">
+            <h1>Weather App</h1>
+
+            <!-- setup -->
+
+            <div id="setup">
+                <input type="text" id="name-input" placeholder="Enter your name..">
+                <input type="text" id="city-input" placeholder="Enter your city..(e.g. Lagos)">
+                <button id="startBtn">Start</button>
+            </div>
+
+            <div id="app" class="hidden">
+                <h2 id="greeting"></h2>
+
+                <input type="text" id="changeCity" placeholder="Input city..">
+                <button id="updateBtn">Update Location</button>
+
+                <div class="weather" id="weather"></div>
+
+                <p id="resetBtn" class="small-link">Reset Profile</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
